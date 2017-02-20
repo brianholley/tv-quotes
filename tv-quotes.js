@@ -23,37 +23,39 @@ Module.register("tv-quotes",{
 	// },
 
     start: function() {
-        this.quotes = this.config.shows.map(show => allQuotes[show]).reduce();
-        
-		var self = this;
-		setInterval(function() {
-			self.updateDom();
-        }, this.config.timeShown * 1000);
+        Log.log("tv-quotes.start");
+
+        var module = this;
+        this.quotes = this.config.shows.map(show => module.allQuotes[show]).reduce((acc, val) => acc.concat(...val));
+	
+        setInterval(() => module.updateDom(), this.config.timeShown * 1000);
     },
 
-    nextQuote: function(quotes) {
-        var index = Math.floor(Math.random() * quotes.length);
-        return quotes[index];
+    nextQuote: function() {
+        var index = Math.floor(Math.random() * this.quotes.length);
+        return this.quotes[index];
     },
 
     getDom: function() {
-        var quote = nextQuote(this.quotes);
+        var q = this.nextQuote();
 
         var container = document.createElement("div");
 
         var quote = document.createElement("div");
-        quote.innerText = quote.txt;
+        quote.innerHTML = q.txt;
         quote.className = "thin large bright";
         container.appendChild(quote);
 
         var speaker = document.createElement("div");
-        speaker.innerText = "-- " + quote.sp;
-        speaker = "thin medium bright";
+        speaker.innerHTML = "-- " + q.sp;
+        speaker.className = "thin medium bright";
+        speaker.style = "text-align: right";
         container.appendChild(speaker);
 
         var episode = document.createElement("div");
-        episode.innerText = "(" + quote.ep + ")";
-        episode = "thin medium bright";
+        episode.innerHTML = "(" + q.ep + ")";
+        episode.className = "thin medium bright";
+        episode.style = "text-align: right";
         container.appendChild(episode);
 
         return container;
