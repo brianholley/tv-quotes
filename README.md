@@ -15,10 +15,8 @@ modules: [
         module: 'tv-quotes',
         position: 'lower_third',
         config: {
-            // By default quotes are selected from 
-            shows: [ /* By default all shows are shown*/ ],
-            timeShown: 30, // how long is the quote shown, in seconds
-            fadeSpeed: 2, // how long does it take to fade in/out, in seconds
+            // By default quotes are selected from all shows
+            // See the section below for defaults and configuration options 
         }
     }
 ]
@@ -51,11 +49,11 @@ shows: ["futurama", "thesimpsons"];
 		<tr>
 			<td><code>timeShown</code></td>
 			<td>How long is a quote shown (in seconds)</td>
-			<td>30 seconds</td>
+			<td>60 seconds</td>
 		</tr>
 		<tr>
 			<td><code>fadeSpeed</code></td>
-			<td>How long does it take to fade a quote in/out (in seconds)</td>
+			<td><p><strong>This value is currently ignored</strong></p>How long does it take to fade a quote in/out (in seconds)</td>
 			<td>2 seconds</td>
 		</tr>
 	</tbody>
