@@ -1,3 +1,5 @@
+'use strict';
+
 Module.register("tv-quotes",{
 
     // Default configuration is all shows
@@ -7,28 +9,42 @@ Module.register("tv-quotes",{
         fadeSpeed: 2, // how long does it take to fade in/out, in seconds
     },
 
-    // TODO: Move to localizable data files
-    allQuotes: {
-        futurama: [
-            { txt: "Good news, everyone!", sp: "Professor Farnsworth", ep: "My Three Suns, S1E7" },
-        ],
-        thesimpsons: [
-            { txt: "I'm Bart Simpson. Who the hell are you?", sp: "Bart Simpson", ep: "Simpsons Roasting on an Open Fire, S1E1" },
-        ],
+    quotesForShow: function(show) {
+        var filepath = this.file(`quotes/en/${show}.json`);
+        Log.log(`Loading quotes for '${show}' from '${filepath}`);
+
+        return new Promise((resolve, reject) => {
+            var xhr = new XMLHttpRequest();
+            xhr.overrideMimeType("application/json");
+            xhr.open("GET", filepath, true);
+            xhr.onreadystatechange = () => {
+                if (xhr.readyState == 4) {
+                    if (xhr.status == "200") {
+                        resolve(JSON.parse(xhr.responseText));
+                    }
+                    else {
+                        Log.error(`Failed to load ${show}: ${xhr.status}`);
+                        reject(`Invalid show in config file: '${show}'`);
+                    }
+                }
+            };
+            xhr.send();
+        }).then(s => s.quotes);
     },
 
-    // loadQuotesFromFile: function(show) {
-    //     var file = this.file('quotes/' + show + ".json");
-    //     return [];
-	// },
-
     start: function() {
-        Log.log("tv-quotes.start");
+        this.err = "Loading quotes...";
 
         var module = this;
-        this.quotes = this.config.shows.map(show => module.allQuotes[show]).reduce((acc, val) => acc.concat(...val));
-	
-        setInterval(() => module.updateDom(), this.config.timeShown * 1000);
+        Promise.all(this.config.shows.map(show => module.quotesForShow(show))).then(results => {
+            module.quotes = results.reduce((acc, val) => acc.concat(...val));
+            module.err = "";
+            module.updateDom();
+            setInterval(() => module.updateDom(), module.config.timeShown * 1000);
+        }).catch(err => {
+            module.err = err;
+            module.updateDom();
+        });
     },
 
     nextQuote: function() {
@@ -37,26 +53,35 @@ Module.register("tv-quotes",{
     },
 
     getDom: function() {
-        var q = this.nextQuote();
-
         var container = document.createElement("div");
 
-        var quote = document.createElement("div");
-        quote.innerHTML = q.txt;
-        quote.className = "thin large bright";
-        container.appendChild(quote);
+        if (this.quotes !== undefined) {
+            var q = this.nextQuote();
 
-        var speaker = document.createElement("div");
-        speaker.innerHTML = "-- " + q.sp;
-        speaker.className = "thin medium bright";
-        speaker.style = "text-align: right";
-        container.appendChild(speaker);
+            var quote = document.createElement("div");
+            quote.innerHTML = q.txt;
+            quote.className = "thin large bright";
+            container.appendChild(quote);
 
-        var episode = document.createElement("div");
-        episode.innerHTML = "(" + q.ep + ")";
-        episode.className = "thin medium bright";
-        episode.style = "text-align: right";
-        container.appendChild(episode);
+            var speaker = document.createElement("div");
+            speaker.innerHTML = "-- " + q.sp;
+            speaker.className = "thin medium bright";
+            speaker.style = "text-align: right";
+            container.appendChild(speaker);
+
+            var episode = document.createElement("div");
+            episode.innerHTML = "(" + q.ep + ")";
+            episode.className = "thin medium bright";
+            episode.style = "text-align: right";
+            container.appendChild(episode);
+        }
+
+        if (this.err !== undefined) {
+            var message = document.createElement("div");
+            message.innerHTML = this.err;
+            message.className = "thin small bright";
+            container.appendChild(message);
+        }
 
         return container;
     }
