@@ -1,6 +1,6 @@
 # MirrorMirror Module: tv-quotes
 
-`tv-quotes` is a module for the [MirrorMirror](https://github.com/MichMich/MagicMirror) that shows a random quote from some popular TV shows.
+`tv-quotes` is a module for the [MagicMirror](https://github.com/MichMich/MagicMirror) that shows a random quote from some popular TV shows.
 
 ## Installation and configuration
 Clone this repository in your `~/MagicMirror/modules/` folder
