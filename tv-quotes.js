@@ -70,7 +70,7 @@ Module.register("tv-quotes",{
             container.appendChild(speaker);
 
             var episode = document.createElement("div");
-            episode.innerHTML = "(" + q.ep + ")";
+            episode.innerHTML = (q.ep !== undefined ? `(${q.ep})` : "");
             episode.className = "thin medium bright";
             episode.style = "text-align: right";
             container.appendChild(episode);
