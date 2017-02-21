@@ -1,6 +1,31 @@
 {
     "show": "futurama",
     "quotes": [
-        { "txt": "Good news, everyone!", "sp": "Professor Farnsworth", "ep": "My Three Suns, S1E7" }
+        { "txt": "Good news, everyone!", "sp": "Professor Farnsworth" },
+        { "txt": "The one called Zapp will be snu-snu'd by the large women; he that is designated Fry... will be snu-snu'd by the petite women. And Kiff, as the most attractive male, will be snu-snu'd by the most beautiful women of Amazonia, then the large women, then the petite women, then the large women again!", "sp": "Femputer" },
+        { "txt": "Cash, cash, cash! Too many bones and not enough cash? Sell your extra bones for cash! Ribs, skulls, spines, even certain little ear bones! The leg bone's connected to the... Cash Bone!", "sp": "TV Commercial" },
+        { "txt": "Mix these mixed nuts! I see two almonds touching!", "sp": "Kif Kroker" },
+        { "txt": "As I discuss in my book Earth in the Balance, and the more popular Harry Potter and the Balance of the Earth, we need to protect ourselves against the greenhouse effect and dark wizards.", "sp": "Al Gore" },
+        { "txt": "Bigfoot, is that you? I'm not like the others, Bigfoot. I see through the monster coating to the gentle loner inside. I bet you have a wounded raccoon friend that you tenderly nurse back to health while you go, &quot;Rooh! Rooh!&quot; But in the end they shoot you, but you teach us about things.", "sp": "Phillip J. Fry" },
+        { "txt": "Men, you're lucky men. Soon, you'll all be fighting for your planet. many of you will be dying for your planet. A few of you will be put through a fine mesh screen for your planet. They will be the luckiest of all.", "sp": "Captain Zapp Brannigan" },
+        { "txt": "If you do things right, people won't be sure you've done anything at all.", "sp": "God" },
+        { "txt": "If we hit that bullseye, the rest of the dominoes should fall like a house of cards. Checkmate.", "sp": "Captain Zapp Brannigan" },
+        { "txt": "You're a brave robot, son. But when I'm in command every mission's a suicide mission.", "sp": "Captain Zapp Brannigan" },
+        { "txt": "Let us cavort like the Greeks of old! You know the ones I mean...", "sp": "Hedonism bot" },
+        { "txt": "You are entering the realm which is unusual. Maybe it's magic or contains some kind of monster. The second one. Prepare to enter... The Scary Door.", "sp": "Scary Door Narrator" },
+        { "txt": "Oh dear, she's stuck in an infinite loop and he's an idiot! Oh well, that's love for you, I guess.", "sp": "Professor Farnsworth" },
+        { "txt": "Valentine’s Day’s coming? Aw crap! I forgot to get a girlfriend again!", "sp": "Philip J. Fry" },
+        { "txt": "I’m not a robot like you, I don’t like having discs crammed into me... unless they’re Oreos... and then only in the mouth.", "sp": "Philip J. Fry" },
+        { "txt": "Pathetic human race. Arranging their knowledge by category just made it easier to absorb. Dewey, you fool! Your decimal system has played right into my hands! Ha ha ha ha!", "sp": "Giant Brain" },
+        { "txt": "I was all of history’s great robot actors - Acting Unit 0.8; Thespomat; David Duchovny!", "sp": "Calculon" },
+        { "txt": "I don't want to be an inventor. I want to be something useful like a teacher's aide or a prison guard or a science fiction cartoon writer.", "sp": "Cubert Farnsworth" },
+        { "txt": "Good news, everyone! I’ve taught the toaster to feel love!", "sp": "Professor Farnsworth" },
+        { "txt": "Morbo will now introduce the candidates - Puny Human Number One, Puny Human Number Two, and Morbo's good friend Richard Nixon.", "sp": "Morbo" },
+        { "txt": "All I want is to be a monkey of moderate intelligence who wears a suit... that’s why I’m transferring to business school!", "sp": "Guenter" },
+        { "txt": "Kif, I have made it with a woman. Inform the men.", "sp": "Captain Zapp Brannigan" },
+        { "txt": "I’m going to build my own theme park! With blackjack! And hookers! You know what - forget the park!", "sp": "Bender" },
+        { "txt": "Brannigan’s Law is like Brannigan’s love - hard and fast.", "sp": "Captain Zapp Brannigan" },
+        { "txt": "In the game of chess you can never let your adversary see your pieces.", "sp": "Captain Zapp Brannigan" },
+        { "txt": "This concept of &apos;wuv&apos; confuses and infuriates us!", "sp": "Lrrr" }
     ]
 }

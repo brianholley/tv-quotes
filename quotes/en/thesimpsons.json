@@ -1,7 +1,28 @@
 {
     "show": "thesimpsons",
     "quotes": [
-        { "txt": "Ay Carumba!", "sp": "Bart Simpson", "ep": "Most of the early ones" },
-        { "txt": "I'm Bart Simpson. Who the hell are you?", "sp": "Bart Simpson", "ep": "Simpsons Roasting on an Open Fire, S1E1" }
+        { "txt": "To alcohol! The cause of, and solution to, all of life’s problems.", "sp": "Homer Simpson" },
+        { "txt": "I was saying &quot;Boo-urns.&quot;.", "sp": "Hans Moleman" },
+        { "txt": "Everything’s coming up Milhouse!", "sp": "Milhouse Van Houten" },
+        { "txt": "Shut up, brain, or I’ll stab you with a Q-tip!", "sp": "Homer Simpson" },
+        { "txt": "We’re here! We’re queer! We don’t want any more bears!", "sp": "Springfield Protestors" },
+        { "txt": "Well, if it isn’t my old friend, Mr. McGreg, with a leg for an arm, and an arm for a leg.", "sp": "Dr. Nick Riviera" },
+        { "txt": "You don’t win friends with salad.", "sp": "Homer Simpson" },
+        { "txt": "My cat’s breath smells like cat food.", "sp": "Ralph Wiggum" },
+        { "txt": "Hammocks? My goodness, what an idea. Why didn&apos;t I think of that? Hammocks! Homer, there&apos;s four places. There&apos;s the Hammock Hut, that&apos;s on third. There&apos;s Hammocks-R-Us, that&apos;s on third too. You got Put-Your-Butt-There. That&apos;s on third. Swing Low, Sweet Chariot... Matter of fact, they&apos;re all in the same complex; it&apos;s the hammock complex on third", "sp": "Hank Scorpio" },
+        { "txt": "When a woman says nothing’s wrong, that means everything’s wrong. And when a woman says everything’s wrong, that means everything’s wrong. And when a woman says something’s not funny, you’d better not laugh your ass off.", "sp": "Homer Simpson" },
+        { "txt": "My bones are so brittle. But I always drink plenty of…malk?", "sp": "Bart Simpson" },
+        { "txt": "Me fail English? That’s unpossible.", "sp": "Ralph Wiggum" },
+        { "txt": "My eyes! The goggles do nothing!", "sp": "Rainier Wolfcastle" },
+        { "txt": "I used to be with it, but then they changed what &quot;it&quot; was, and now what I’m with isn’t it. And what’s &quot;it&quot; seems weird and scary to me. It&apos;ll happen to you.", "sp": "Grandpa Simpson" },
+        { "txt": "Metric system is the tool of the devil! My car gets forty rods to the hogs-head and that’s the way I likes it!", "sp": "Grandpa Simpson" },
+        { "txt": "Kids, you tried your best and you failed miserably. The lesson is: never try.", "sp": "Homer Simpson" },
+        { "txt": "Books are useless! I only ever read one book, &quot;To Kill a Mockingbird,&quot; and it gave me absolutely no insight on how to kill mockingbirds! Sure it taught me not to judge a man by the color of his skin… but what good does that do me?", "sp": "Homer Simpson" },
+        { "txt": "Hi, Super Nintendo Chalmers!", "sp": "Ralph Wiggum" },
+        { "txt": "I have three kids and no money. Why can’t I have no kids and three money?", "sp": "Homer Simpson" },
+        { "txt": "Just once I&apos;d like someone to call me &apos;Sir&apos; without adding &apos;You&apos;re making a scene.&apos;", "sp": "Homer Simpson" },
+        { "txt": "This is my sandbox, I&apos;m not allowed to go in the deep end.", "sp": "Ralph Wiggum" },
+        { "txt": "I choo choo choose you.", "sp": "Ralph Wiggum" },
+        { "txt": "Brothers and sisters are natural enemies, Like Englishmen and Scots, Welshmen and Scots, Or Japanese and Scots, Or Scots and Scots, Damn Scots, they ruined Scotland!", "sp": "Groundskeeper Willie" }
     ]
 }
