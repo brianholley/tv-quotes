@@ -1,5 +1,5 @@
 {
-    "show": "futurama",
+    "show": "Futurama",
     "quotes": [
         { "txt": "Good news, everyone!", "sp": "Professor Farnsworth" },
         { "txt": "The one called Zapp will be snu-snu&apos;d by the large women; he that is designated Fry... will be snu-snu&apos;d by the petite women. And Kiff, as the most attractive male, will be snu-snu&apos;d by the most beautiful women of Amazonia, then the large women, then the petite women, then the large women again!", "sp": "Femputer" },
@@ -26,6 +26,14 @@
         { "txt": "I&apos;m going to build my own theme park! With blackjack! And hookers! You know what - forget the park!", "sp": "Bender" },
         { "txt": "Brannigan&apos;s Law is like Brannigan&apos;s love - hard and fast.", "sp": "Captain Zapp Brannigan" },
         { "txt": "In the game of chess you can never let your adversary see your pieces.", "sp": "Captain Zapp Brannigan" },
-        { "txt": "This concept of &apos;wuv&apos; confuses and infuriates us!", "sp": "Lrrr" }
+        { "txt": "This concept of &apos;wuv&apos; confuses and infuriates us!", "sp": "Lrrr" },
+        { "txt": "The female Leela&apos;s problem is purely medical. Soon she will drop her eggs and they will hatch and all will be well.", "sp": "Zoidberg" },
+        { "txt": "Maybe you could do more reps with less weight.", "sp": "Leela" },
+        { "txt": "This &apos;love&apos; intrigues me... teach me to fake it!", "sp": "Dr. Zoidberg" },
+        { "txt": "Ohhh, it&apos;s all so complicated, with the flowers, and the romance, and the lies upon lies.", "sp": "Dr. Zoidberg" },
+        { "txt": "It&apos;s a calculator. I ate it to gain it&apos;s power.", "sp": "Hermes Conrad" },
+        { "txt": "Oh, Hermes, I&apos;ve been such a fool. Truth be, I married you for your sexy potato body,but I&apos;m staying with you for your sexy potato head.", "sp": "LeBarbara Conrad" },
+        { "txt": "Don&apos;t quote regulation to me! I co-chaired the committee that reviewed the recommendation to revise the color of the book that regulation is in. We kept it gray.", "sp": "Number 1.0" },
+        { "txt": "Beauracrat Conrad, you are technically correct. The best kind of correct.", "sp": "Number 1.0" }
     ]
 }
