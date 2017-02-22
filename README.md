@@ -27,7 +27,7 @@ modules: [
 'tv-quotes' contains quotes from the following shows:
 
 ````javascript
-shows: ["futurama", "thesimpsons"];
+shows: ["futurama", "kingofthehill", "thesimpsons"];
 ````
 
 ## Configuration options

@@ -4,7 +4,7 @@ Module.register("tv-quotes",{
 
     // Default configuration is all shows
     defaults: {
-        shows: [ "futurama", "thesimpsons" ],
+        shows: [ "futurama", "kingofthehill", "thesimpsons" ],
         timeShown: 60, // how long is the quote shown, in seconds
         fadeSpeed: 2, // how long does it take to fade in/out, in seconds
     },
