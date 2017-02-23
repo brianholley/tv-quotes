@@ -60,18 +60,18 @@ Module.register("tv-quotes",{
 
             var quote = document.createElement("div");
             quote.innerHTML = q.txt;
-            quote.className = "thin large bright";
+            quote.className = "regular medium bright";
             container.appendChild(quote);
 
             var speaker = document.createElement("div");
             speaker.innerHTML = "-- " + q.sp;
-            speaker.className = "thin medium bright";
+            speaker.className = "light small bright";
             speaker.style = "text-align: right";
             container.appendChild(speaker);
 
             var episode = document.createElement("div");
             episode.innerHTML = (q.ep !== undefined ? `(${q.ep})` : "");
-            episode.className = "thin medium bright";
+            episode.className = "light small bright";
             episode.style = "text-align: right";
             container.appendChild(episode);
         }
