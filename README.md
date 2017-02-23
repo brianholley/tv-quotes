@@ -13,7 +13,7 @@ Then add it to the modules list in the MagicMirror `config/config.js` file:
 modules: [
     {
         module: 'tv-quotes',
-        position: 'lower_third',
+        position: 'middle_center',
         config: {
             // By default quotes are selected from all shows
             // See the section below for defaults and configuration options 
