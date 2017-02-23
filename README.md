@@ -44,7 +44,7 @@ shows: ["futurama", "kingofthehill", "thesimpsons"];
 		<tr>
 			<td><code>shows</code></td>
 			<td>The array of shows to pick from</td>
-			<td>All shows (see below)</td>
+			<td>All shows (see Shows list)</td>
 		</tr>
 		<tr>
 			<td><code>timeShown</code></td>
