@@ -40,7 +40,7 @@ Module.register("tv-quotes",{
             module.quotes = results.reduce((acc, val) => acc.concat(...val));
             module.err = "";
             module.updateDom();
-            setInterval(() => module.updateDom(), module.config.timeShown * 1000);
+            setInterval(() => module.updateDom(module.config.fadeSpeed * 1000), module.config.timeShown * 1000);
         }).catch(err => {
             module.err = err;
             module.updateDom();
