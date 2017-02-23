@@ -29,7 +29,14 @@ Module.register("tv-quotes",{
                 }
             };
             xhr.send();
-        }).then(s => s.quotes);
+        }).then(s => s.quotes.map(q => { 
+            return { 
+                txt: q.txt,
+                sp: q.sp,
+                ep: q.ep, 
+                show: s.show 
+            } 
+        }));
     },
 
     start: function() {
@@ -69,8 +76,9 @@ Module.register("tv-quotes",{
             speaker.style = "text-align: right";
             container.appendChild(speaker);
 
+            let source = (q.ep !== undefined ? `${q.ep}, ` : "") + q.show;
             var episode = document.createElement("div");
-            episode.innerHTML = (q.ep !== undefined ? `(${q.ep})` : "");
+            episode.innerHTML = source;
             episode.className = "light small bright";
             episode.style = "text-align: right";
             container.appendChild(episode);
