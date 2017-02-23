@@ -53,7 +53,7 @@ shows: ["futurama", "kingofthehill", "thesimpsons"];
 		</tr>
 		<tr>
 			<td><code>fadeSpeed</code></td>
-			<td><p><strong>This value is currently ignored</strong></p>How long does it take to fade a quote in/out (in seconds)</td>
+			<td>How long does it take to fade a quote in/out (in seconds)</td>
 			<td>2 seconds</td>
 		</tr>
 	</tbody>
