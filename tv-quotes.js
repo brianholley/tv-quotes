@@ -67,19 +67,20 @@ Module.register("tv-quotes",{
 
             var quote = document.createElement("div");
             quote.innerHTML = q.txt;
-            quote.className = "regular medium bright";
+            quote.className = "light medium bright";
+            quote.style = "font-size: 50px; line-height: 60px;"
             container.appendChild(quote);
 
             var speaker = document.createElement("div");
             speaker.innerHTML = "-- " + q.sp;
-            speaker.className = "light small bright";
+            speaker.className = "light medium bright";
             speaker.style = "text-align: right";
             container.appendChild(speaker);
 
             let source = (q.ep !== undefined ? `${q.ep}, ` : "") + q.show;
             var episode = document.createElement("div");
             episode.innerHTML = source;
-            episode.className = "light small bright";
+            episode.className = "light medium bright";
             episode.style = "text-align: right";
             container.appendChild(episode);
         }
