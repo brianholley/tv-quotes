@@ -1,0 +1,10 @@
+{
+    "show": "Doctor Who",
+    "quotes": [
+        { "txt" : "It&apos;s a fez. I wear a fez now. Fezzes are cool.", "sp" : "The 11th Doctor", "ep" : "The Big Bang, S5E13" },
+        { "txt" : "Pantophobia. Not fear of pants, though, if that's what you're thinking. It's the fear of everything. Including pants, I suppose, in that case.", "sp" : "The 11th Doctor", "ep" : "Night Terrors, S6E9" },
+        { "txt" : "There's something you better understand about me, 'cause it's important and one day your life may depend on it. I am definitely a madman with a box!", "sp" : "The 11th Doctor", "ep" : "The God Complex, S6E11" },
+        { "txt" : "Every time I think it couldn't get more extraordinary, it surprises me. It's impossible. I hate it. It's evil. It's astonishing. I want to kiss it to death", "sp" : "The 12th Doctor", "ep" : "Under the Lake, S9E3"},
+        { "txt" : "If you think because she is dead that I am weak, then you understand very little. If you were any part of killing her, and you’re not afraid, then you understand nothing at all. So, for your own sake, understand this. I am the Doctor, I'm coming to find you, and I will never, ever stop.", "sp" : "The 12th Doctor", "ep" : "Heaven Sent, S9E11"}
+    ]
+}
