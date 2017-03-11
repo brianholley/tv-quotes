@@ -71,11 +71,14 @@ Module.register("tv-quotes",{
             quote.style = "font-size: 50px; line-height: 60px;"
             container.appendChild(quote);
 
-            var speaker = document.createElement("div");
-            speaker.innerHTML = "-- " + q.sp;
-            speaker.className = "light medium bright";
-            speaker.style = "text-align: right";
-            container.appendChild(speaker);
+            if (q.sp !== undefined && q.sp != "")
+            {
+                var speaker = document.createElement("div");
+                speaker.innerHTML = "-- " + q.sp;
+                speaker.className = "light medium bright";
+                speaker.style = "text-align: right";
+                container.appendChild(speaker);
+            }
 
             let source = (q.ep !== undefined ? `${q.ep}, ` : "") + q.show;
             var episode = document.createElement("div");
