@@ -1,10 +1,10 @@
 {
     "show": "King of the Hill",
     "quotes": [
-        { "txt": "Bobby, some things are like a tire fire, trying to put it out only makes it worse. You just gotta grab a beer and let it burn.", "sp": "Hank Hill" },
-        { "txt": "Can&apos;t you see you&apos;re not making Christianity any better, you&apos;re just making rock and roll worse?", "sp": "Hank Hill" },
-        { "txt": "What the hell kind of country is this where I can only hate a man if he&apos;s white?", "sp": "Hank Hill" },
-        { "txt": "An ‘F&apos; in English? Bobby, you speak English!", "sp": "Hank Hill" },
-        { "txt": "[On thinking like a fish] I&apos;m wet and I don&apos;t even know it.", "sp": "Bobby Hill" }
+        { "txt": "Bobby, some things are like a tire fire, trying to put it out only makes it worse. You just gotta grab a beer and let it burn.", "sp": "Hank Hill", "ep": "Aisle 8A, S4E5" },
+        { "txt": "Can&apos;t you see you&apos;re not making Christianity any better, you&apos;re just making rock and roll worse?", "sp": "Hank Hill", "ep": "Reborn to be Wild, S8E2" },
+        { "txt": "An ‘F&apos; in English? Bobby, you speak English!", "sp": "Hank Hill", "ep": "Old Glory, S4E11" },
+        { "txt": "[On thinking like a fish] I&apos;m wet and I don&apos;t even know it.", "sp": "Bobby Hill", "ep": "Phish and Wildlife, S8E12" },
+        { "txt": "[On propane] You'll find it burns witches cleanly and evenly and at a fraction of the cost.", "sp": "Hank Hill", "ep": "Joust Like a Woman, S6E8" }
     ]
 }
