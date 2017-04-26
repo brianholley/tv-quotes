@@ -1,17 +1,63 @@
 {
     "show": "Invader Zim",
     "quotes": [
-        { "txt" : "But invader&apos;s blood marches through my veins like giant RADIOACTIVE RUBBER PANTS! The pants command me! Do not ignore my veins!", "sp" : "Zim", "ep" : "The Nightmare Begins, S1E1" },
-        { "txt" : "Mmmmmmmm...ahhhhhh! The stink of clean. Another win for the Irken army. Clean, lemony-fresh victory is mine!", "sp" : "Zim", "ep" : "Germs, S1E4a" },
-        { "txt" : "There&apos;s a pigeon on your head. You&apos;ve got head pigeons. Get to the nurse before they spread to the other children.", "sp" : "Miss Bitters", "ep" : "Dark Harvest, S1E4b" },
-        { "txt" : "Human law enforcing machine. Markings: Lighty flashy things on top. Defensive capability: minimal. [Police car explodes] Explodes on impact with giant weenie. Evaluation: Pathetic! Pathetic Earth vehicle!", "sp" : "Zim", "ep" : "Attack of the Saucer Morons, S1E5a" },
-        { "txt" : "<b>Dib:</b> What&apos;s the matter, Zim? Don&apos;t they have rain on your planet?<br/><b>Zim:</b> Of course! We...oh, such rain we had! Eh...it was...delicious!", "ep" : "The Wettening, S1E5b" },
-        { "txt" : "<b>Zim:</b> Why was there BACON IN THE SOAP?<br/><b>Gir:</b> I made it myself!", "ep" : "Rise of the Zitboy, S1E7b" },
-        { "txt" : "Must obey the taco man!", "sp" : "Gir", "ep" : "Invasion of the Idiot Dog Brain, S1E8a" },
-        { "txt" : "But I chose this particular worm hole especially for the occasion. You see, at the end of this wormhole lies: A ROOM with a MOOSE!", "sp" : "Zim", "ep" : "A Room with a Moose, S1E9a" },
-        { "txt" : "Children, your performance was miserable. Your parents will all receive phone calls instructing them to love you less now.", "sp" : "Miss Bitters", "ep" : "Door to Door, S1E14a" },
-        { "txt" : "He&apos;s after our beaver technology! Is this his next evil plan?", "sp" : "Dib", "ep" : "Zim Eats Waffles, S2E3b" },
-        { "txt" : "There&apos;s waffle in &apos;em!", "sp" : "Gir", "ep" : "Zim Eats Waffles, S2E3b" },
-        { "txt" : "If I am elected, Dib&apos;s head will be removed and filled with salted nuts!", "sp" : "Zim", "ep" : "Voting of the Doomed, S2E5b" }
+        {
+            "txt": "But invader&apos;s blood marches through my veins like giant RADIOACTIVE RUBBER PANTS! The pants command me! Do not ignore my veins!",
+            "sp": "Zim",
+            "ep": "The Nightmare Begins, S1E1"
+        },
+        {
+            "txt": "Mmmmmmmm...ahhhhhh! The stink of clean. Another win for the Irken army. Clean, lemony-fresh victory is mine!",
+            "sp": "Zim",
+            "ep": "Germs, S1E4a"
+        },
+        {
+            "txt": "There&apos;s a pigeon on your head. You&apos;ve got head pigeons. Get to the nurse before they spread to the other children.",
+            "sp": "Miss Bitters",
+            "ep": "Dark Harvest, S1E4b"
+        },
+        {
+            "txt": "Human law enforcing machine. Markings: Lighty flashy things on top. Defensive capability: minimal. [Police car explodes] Explodes on impact with giant weenie. Evaluation: Pathetic! Pathetic Earth vehicle!",
+            "sp": "Zim",
+            "ep": "Attack of the Saucer Morons, S1E5a"
+        },
+        {
+            "txt": "<b>Dib:</b> What&apos;s the matter, Zim? Don&apos;t they have rain on your planet?<br/><b>Zim:</b> Of course! We...oh, such rain we had! Eh...it was...delicious!",
+            "ep": "The Wettening, S1E5b"
+        },
+        {
+            "txt": "<b>Zim:</b> Why was there BACON IN THE SOAP?<br/><b>Gir:</b> I made it myself!",
+            "ep": "Rise of the Zitboy, S1E7b"
+        },
+        {
+            "txt": "Must obey the taco man!",
+            "sp": "Gir",
+            "ep": "Invasion of the Idiot Dog Brain, S1E8a"
+        },
+        {
+            "txt": "But I chose this particular worm hole especially for the occasion. You see, at the end of this wormhole lies: A ROOM with a MOOSE!",
+            "sp": "Zim",
+            "ep": "A Room with a Moose, S1E9a"
+        },
+        {
+            "txt": "Children, your performance was miserable. Your parents will all receive phone calls instructing them to love you less now.",
+            "sp": "Miss Bitters",
+            "ep": "Door to Door, S1E14a"
+        },
+        {
+            "txt": "He&apos;s after our beaver technology! Is this his next evil plan?",
+            "sp": "Dib",
+            "ep": "Zim Eats Waffles, S2E3b"
+        },
+        {
+            "txt": "There&apos;s waffle in &apos;em!",
+            "sp": "Gir",
+            "ep": "Zim Eats Waffles, S2E3b"
+        },
+        {
+            "txt": "If I am elected, Dib&apos;s head will be removed and filled with salted nuts!",
+            "sp": "Zim",
+            "ep": "Voting of the Doomed, S2E5b"
+        }
     ]
 }
