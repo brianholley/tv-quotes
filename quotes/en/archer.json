@@ -1,6 +1,7 @@
 {
     "show": "Archer",
     "quotes": [
-        { "txt" : "Do you want ants? Because that is how you get ants.", "sp" : "Malory Archer", "ep" : "Mole Hunt, S1E1" }
+        { "txt" : "Do you want ants? Because that is how you get ants.", "sp" : "Malory Archer", "ep" : "Mole Hunt, S1E1" },
+        { "txt": "Password. Hmm, password? How about 'Guest'. No way! It can't be. Jesus Christ, that is just... babytown frolics.", "sp": "Sterling Archer", "ep": "Mole Hunt, S1E1" }
     ]
 }
